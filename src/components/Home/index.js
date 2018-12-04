@@ -4,6 +4,7 @@ import {NavLink} from "react-router-dom";
 import axios from "axios";
 import ReactSwipe from 'react-swipe';
 
+
 class Home extends Component{
 	constructor(props){
 		super(props);
@@ -22,8 +23,9 @@ class Home extends Component{
 	}
 
 	render(){
-		return <div>Home
-
+		return <div>
+			
+			
 			<ReactSwipe
 			       className="carousel"
 			       swipeOptions={{ continuous: true, auto:2000}}
@@ -49,6 +51,7 @@ class Home extends Component{
 
 
 			</ul>
+			
 		</div>
 	}
 }

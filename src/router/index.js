@@ -9,6 +9,8 @@ import List from "../components/List";
 import List_Detail from "../components/List_detail";
 import More from "../components/More";
 import Shop from "../components/Shop";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 import Default from "../components/Classify/Default";
 import Hot from "../components/Classify/Hot";
